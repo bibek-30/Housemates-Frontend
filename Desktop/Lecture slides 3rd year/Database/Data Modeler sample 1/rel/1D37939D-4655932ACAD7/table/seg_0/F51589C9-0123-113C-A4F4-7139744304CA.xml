@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F51589C9-0123-113C-A4F4-7139744304CA" name="Department">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:20:22 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DepId" id="FF582723-B47E-3BA8-0715-DC3532BF5626">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:24:45 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepName" id="06451673-E752-5255-6D0F-DECEC59E6294">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:24:45 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpId" id="94AA01CA-B3E1-C73F-9F90-2B74B3B3F3A5">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:24:45 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF2C7CC1-5B0A-FE77-7B8A-81D632A020FD" referredColumn="F87FEFEC-1F0A-D2B5-7A09-008EDD1EC431"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BF98308-148F-F23E-572D-C436ABDE84A7" name="Department_PK">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:24:45 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF582723-B47E-3BA8-0715-DC3532BF5626"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D12DD5D-BB03-636A-617D-B58B6B164BFA" name="TABLE_4_Employee_FK">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:24:45 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94AA01CA-B3E1-C73F-9F90-2B74B3B3F3A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

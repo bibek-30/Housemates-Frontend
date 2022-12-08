@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8323A26-074E-8F64-9692-52988EAC1118" name="Employee">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:13:57 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmpId" id="F87FEFEC-1F0A-D2B5-7A09-008EDD1EC431">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:17:13 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="BD093488-FFE5-A6CB-DC3E-438BF0806D55">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:18:37 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="5528E441-A65D-C94A-D228-B966BB2FD932">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:18:37 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F1AB56C-272F-820F-69DE-417A77377C29" name="Employee_PK">
+<createdBy>Bibek</createdBy>
+<createdTime>2022-12-08 04:17:13 UTC</createdTime>
+<ownerDesignName>Data Modeler sample 1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F87FEFEC-1F0A-D2B5-7A09-008EDD1EC431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
